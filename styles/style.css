@@ -8,3 +8,55 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.header-navigations li {
+  list-style: none;
+}
+.header-navigations li a {
+  text-decoration: none;
+  color: #837D88;
+  text-transform: uppercase;
+}
+.header-navigations li:last-child a{
+  color: #2C2830;
+}
+.desctop-title {
+  background-color: #2D2641;
+}
+.desctop-title__left-side__title-hero {
+  color: #fff;
+}
+.desctop-title__left-side__text {
+  color: #fff;
+}
+.desctop-title__left-side__link {
+  text-decoration: none;
+  color: #fff;
+}
+.about-us__card-text {
+  color: #837D88;
+}
+.how-we-work {
+  background-color: #2D2641;
+}
+.how-we-work__title {
+  color: #fff;
+}
+.how-we-work__link {
+  text-decoration: none;
+  color: #fff;
+}
+.social-links a {
+  text-decoration: none;
+}
+.footer-menu__table li {
+  list-style: none;
+}
+.footer-menu__table a {
+  text-decoration: none;
+  color: #2D2641;
+  text-transform: uppercase;
+}
+.table-title {
+  color: #837D88;
+  text-transform: uppercase;
+}
