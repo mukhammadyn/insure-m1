@@ -1,5 +1,13 @@
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Karla','Verdana', sans-serif;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav__list {
+  display: flex;
 }
 
 .visuallyhidden {
@@ -24,32 +32,51 @@ body {
   color: #2C2830;
 }
 .desctop-title {
+  display: flex;
   background-color: #2D2641;
 }
 .desctop-title__left-side__title-hero {
+  width: 395px;
   color: #fff;
   font-family: 'DM Serif Display', serif;
 }
 .desctop-title__left-side__text {
+  width: 540px;
   color: #fff;
 }
 .desctop-title__left-side__link {
   text-decoration: none;
   color: #fff;
 }
+
+.about-us__cards {
+  display: flex;
+}
 .about-us__card-text {
+  width: 350px;
   color: #837D88;
 }
 .about-us__hero-title {
+  width: 717px;
   font-family: 'DM Serif Display', serif;
 }
 .about-us__card-title {
+  width: 350px;
   font-family: 'DM Serif Display', serif;
 }
+.about-us__card-img {
+  width: 86px;
+  height: 86px;
+}
+
+
 .how-we-work {
+  display: flex;
+  justify-content: space-around;
   background-color: #2D2641;
 }
 .how-we-work__title {
+  width: 214px;
   color: #fff;
   font-family: 'DM Serif Display', serif;
 }
@@ -60,6 +87,15 @@ body {
 .social-links a {
   text-decoration: none;
 }
+.footer-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu__tables {
+  display: flex;
+  justify-content: flex-start;
+}
 .footer-menu__table li {
   list-style: none;
 }
@@ -67,6 +103,9 @@ body {
   text-decoration: none;
   color: #2D2641;
   text-transform: uppercase;
+}
+.footer-menu__table {
+  width: 117px;
 }
 .table-title {
   color: #837D88;
