@@ -1,3 +1,7 @@
+body {
+  font-family: 'Karla', sans-serif;
+}
+
 .visuallyhidden {
   position: absolute;
   width: 1px;
@@ -24,6 +28,7 @@
 }
 .desctop-title__left-side__title-hero {
   color: #fff;
+  font-family: 'DM Serif Display', serif;
 }
 .desctop-title__left-side__text {
   color: #fff;
@@ -35,11 +40,18 @@
 .about-us__card-text {
   color: #837D88;
 }
+.about-us__hero-title {
+  font-family: 'DM Serif Display', serif;
+}
+.about-us__card-title {
+  font-family: 'DM Serif Display', serif;
+}
 .how-we-work {
   background-color: #2D2641;
 }
 .how-we-work__title {
   color: #fff;
+  font-family: 'DM Serif Display', serif;
 }
 .how-we-work__link {
   text-decoration: none;
