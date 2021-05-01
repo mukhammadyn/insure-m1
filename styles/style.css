@@ -20,7 +20,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.header-navigations li {
+.header-navigations ul {
   list-style: none;
 }
 .header-navigations li a {
@@ -36,6 +36,9 @@ body {
   background-color: #2D2641;
 }
 .desctop-title__left-side__title-hero {
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
   width: 395px;
   color: #fff;
   font-family: 'DM Serif Display', serif;
@@ -43,10 +46,15 @@ body {
 .desctop-title__left-side__text {
   width: 540px;
   color: #fff;
+  font-size: 16px;
+  line-height: 26px;
 }
 .desctop-title__left-side__link {
   text-decoration: none;
   color: #fff;
+  letter-spacing: 1.5px;
+  font-size: 13px;
+  line-height: 15px;
 }
 
 .about-us__cards {
@@ -55,12 +63,20 @@ body {
 .about-us__card-text {
   width: 350px;
   color: #837D88;
+  font-size: 16px;
+  line-height: 26px;  
 }
 .about-us__hero-title {
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
   width: 717px;
   font-family: 'DM Serif Display', serif;
 }
 .about-us__card-title {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.388889px;
   width: 350px;
   font-family: 'DM Serif Display', serif;
 }
@@ -79,10 +95,16 @@ body {
   width: 214px;
   color: #fff;
   font-family: 'DM Serif Display', serif;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.777778px;
 }
 .how-we-work__link {
   text-decoration: none;
   color: #fff;
+  letter-spacing: 1.5px;
+  font-size: 13px;
+  line-height: 15px;
 }
 .social-links a {
   text-decoration: none;
@@ -96,13 +118,16 @@ body {
   display: flex;
   justify-content: flex-start;
 }
-.footer-menu__table li {
+.footer-menu__table ul {
   list-style: none;
 }
 .footer-menu__table a {
   text-decoration: none;
   color: #2D2641;
   text-transform: uppercase;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
 }
 .footer-menu__table {
   width: 117px;
@@ -110,4 +135,7 @@ body {
 .table-title {
   color: #837D88;
   text-transform: uppercase;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
 }
